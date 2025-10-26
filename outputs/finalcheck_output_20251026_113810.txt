@@ -1,0 +1,29 @@
+🔍 STRUCTURAL VALIDATION RESULTS:
+=================================
+Column Count: 12 vs 12 --> PASS
+Data Type Validation: Mismatch in: ['Date', 'Product_ID', 'Revenue', 'Supplier_ID', 'Supplier_Rating', 'Discount_Applied'] --> FAIL
+Null Values: No missing values --> PASS
+
+📊 SOURCE DATA QUALITY CHECKS:
+=================================
+Date - All dates in valid format - PASS
+Product_ID - Unique for each date - PASS
+Units_Sold - All quantities valid - PASS
+Revenue - All revenue values valid - PASS
+Reorder_Threshold - All thresholds valid - PASS
+Supplier_ID - All supplier IDs present - PASS
+Discount_Applied - Discount numeric - PASS
+Return_Flag - All return flags valid - PASS
+
+📊 TARGET DATA QUALITY CHECKS:
+=================================
+Date - All dates in valid format - PASS
+Product_ID - Unique for each date - PASS
+Units_Sold - All quantities valid - PASS
+Revenue - All revenue values valid - PASS
+Reorder_Threshold - All thresholds valid - PASS
+Supplier_ID - All supplier IDs present - PASS
+Discount_Applied - Discount numeric - PASS
+Return_Flag - All return flags valid - PASS
+
+✅ OVERALL RESULT: FAIL
