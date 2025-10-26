@@ -1,0 +1,43 @@
+# ===== PYTHON ENVIRONMENT =====
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# ===== ENVIRONMENT VARIABLES =====
+.env
+.env.*
+
+# ===== IDE & EDITOR FILES =====
+.vscode/
+.idea/
+*.code-workspace
+
+# ===== OUTPUT / GENERATED FILES =====
+outputs/
+*.log
+*.txt
+*.csv
+*.xlsx
+
+# ===== SYSTEM / OS FILES =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== BACKUP / TEMP FILES =====
+*.bak
+*.tmp
+~$*
+
+# ===== NOTEBOOK / CHECKPOINTS =====
+.ipynb_checkpoints/
+
+# ===== TEST / DEMO FILES =====
+test_*.py
+temp_*.py
