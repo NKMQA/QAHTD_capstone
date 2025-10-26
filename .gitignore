@@ -18,12 +18,12 @@ __pycache__/
 .idea/
 *.code-workspace
 
-# ===== OUTPUT / GENERATED FILES =====
-outputs/
-*.log
-*.txt
-*.csv
-*.xlsx
+# # ===== OUTPUT / GENERATED FILES =====
+# outputs/
+# *.log
+# *.txt
+# *.csv
+# *.xlsx
 
 # ===== SYSTEM / OS FILES =====
 .DS_Store
