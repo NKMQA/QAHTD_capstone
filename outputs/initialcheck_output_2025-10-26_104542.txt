@@ -1,0 +1,13 @@
+Initial Data Quality Check Report
+Timestamp: 2025-10-26_104542
+
+PASS: Date - All dates valid
+PASS: Unique Product ID - No duplicates for same date
+PASS: Units_Sold >= 0
+PASS: Revenue >= 0
+PASS: Reorder_Threshold < Stock_Level
+PASS: Supplier_ID not null
+PASS: Discount_Applied is numeric
+PASS: Return_Flag is binary (0/1)
+
+OVERALL RESULT: PASS
